@@ -6,10 +6,11 @@ simple venv for lua (https://www.lua.org/)
 $ git clone https://github.com/Tikhon-code/lua-venv/
 ```
 
-# Work
+# Work and Activate
 ```sh
-$ sh lvenv.sh 
-```
-*need copying lua-venv to project
+# Create venv on current dir
+$ sh lvenv.sh
 
-and... adding venv files on current dir!
+# Activating venv
+$ source venv/activate
+```
